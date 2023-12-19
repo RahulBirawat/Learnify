@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+.container{
+    padding:3%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:2%;
+    /* border:2px solid black; */
+}
+.navigation_bar{
+    display:flex;
+    /* border:2px solid black; */
+    width:100%;
+    padding:2rem;
+    gap:20%; 
+}
+a{
+    text-decoration:none;
+}
+.logo a{
+    color:black;
+    font-size:2rem;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.midsection{
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.midsection a{
+    font-size:1.2rem;
+    margin-left:3rem;
+    color:black;
+}
+.midsection a:hover{
+    color:green;
+}
+.logo{
+    justify-content: space-around;
+}
+.user,.logo{
+    /* border:2px solid black; */
+    display:flex;
+}
+.user button{
+    padding:15px 20px;
+    margin-left:2rem;
+    background-color: white;
+    color:black;
+    font-weight:bold;
+    border:2px solid black;
+    border-radius:24px;
+}
+#login{
+    color:black;
+}
+#loginId:hover{
+    color:white;
+}
+.user button:hover{
+    background-color: black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.hero1{
+    width:100%;
+    display:flex;
+    gap:10%;
+    padding:2%;
+}
+.hero1 .section1{
+    width:50%;
+    padding:4% 4% 4% 0;
+}
+.hero1 .section1 h2,h1,p{
+    margin-top:3%;
+}
+#p1{
+    font-weight:600;
+    font-size:1.3em;
+    word-spacing: 4px;
+}
+h1{
+    font-weight:bolder;
+    letter-spacing: 0.2rem;
+    font-size:2.2rem;
+    font-family:Rubik, sans-serif;
+}
+h1 span{
+    color:green;
+}
+.hero1 .section2{
+    width:42%;
+}
+.hero1 .section2 img{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.hero2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid black;
+    margin-top:2rem;
+    padding:3rem;
+    background-color: black;
+    color:white;
+    border-radius:20px;
+    width:90%;
+}
+.hero2 h2{
+    word-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
+    font-weight:bold;
+}
+.hero2 p{
+    width:60%;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.hero3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5rem 0;
+}
+.hero3 .section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero3 .section img{
+    width:50%;
+    padding:2rem;
+    height:450px;
+}
+.hero3 .section p{
+    padding:2rem;
+    font-weight:bold;
+    line-height:2rem;
+}
+.footer,.footer a{
+    background-color: black;
+    color:white;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:4%;
+    padding:4%;
+}
+.footer{
+    border:none;
+    border-radius:10px;
+}
+.footer .sec1,.sec2,.sec3,.sec4{
+    display:flex;
+    flex-direction: column;
+    gap:15%;
+    width:25%;
+}
+.footer h2{
+    font-weight:bolder;
+    text-align:center;
+    margin-bottom:20px;
+}
+.footer a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
