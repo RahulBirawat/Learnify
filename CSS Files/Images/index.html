@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodprsim - A Prism of Flavours</title>
+    <script src="https://kit.fontawesome.com/2e1f7181be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./homestyle.css">
+</head>
+<body>
+    <div class="container">
+        <!-- banner -->
+        <div class="banner">
+            <p>Order and Enjoy the delicious food now just at Rs199/-</p>
+            <a href="" onclick="visible()"><i class="fa-solid fa-x fa-xl" id="crossbtn"  style="color: #f5f7fa;"></i></a>
+        </div>
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="logo"><img src="./Your paragraph text (1).png" alt="">
+                <p>Foodprism</p>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#">Services</a>
+                <a href="#">Pricing</a>
+            </nav>
+            <div class="loginbutton"><a href="">Login/SignUp</a></div>
+            <div class="menu-btn"><i class="fa-sharp fa-solid fa-bars-staggered fa-2xl"></i></div>
+        </div>
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="text">
+                <h1>Enjoy ,Order and Eat a prism of Flavours.</h1>
+                <p>At Foodprism, we believe that food is a journey of discovery.Whether you're in the mood for something familiar or something new, we have something for you. So come on in and explore the prism of flavors at Foodprism!</p>
+            </div>
+            <div class="heroimage">
+                <img src="./backimage.webp" alt="">
+            </div>
+        </div>
+        <!-- search Bar -->
+        <div class="searchbar">
+            <h1>Feeling Hungry?</h1>
+            <p>Enter your location and order what you want!</p>
+            <div class="locate">
+                <input type="text" placeholder="Enter Your Loaction here">
+                <input type="submit" value="Find Food">
+            </div>
+        </div>
+        <!-- Different_Foods -->
+        <div class="diff_foods">
+            <!-- Indian -->
+            <h1>What Foods we offer here!</h1>
+            <div class="imagewithtext">
+                <div class="food_image">
+                    <img src="./indianfood.webp" alt="">
+                </div>
+                <div class="food_text">
+                    <h2>Indian Foods with varities.</h2>
+                    <p>A diverse and delicious cuisine with a rich history, Indian food is sure to tantalize your taste buds. From fragrant curries to sizzling tandoori dishes, there's something for everyone.</p>
+                    <a href=""><button>Order Now</button></a>
+                </div>
+            </div>
+            <!-- Pizza and Burger -->
+            <div class="imagewithtext">
+                <div class="food_image">
+                    <img src="./pizza.webp" alt="">
+                </div>
+                <div class="food_text">
+                    <h2>Delicious Pizza and Burgers.</h2>
+                    <p>A satisfying and hearty meal,Pizzas and burgers are a popular choice for any occasion. Whether you like them classic or topped with all the fixings, burgers are sure to satisfy your hunger.</p>
+                    <a href=""><button>Order Now</button></a>
+                </div>
+            </div>
+            <!-- Jain Food -->
+            <div class="imagewithtext">
+                <div class="food_image">
+                    <img src="./jainfood.webp" alt="">
+                </div>
+                <div class="food_text">
+                    <h2>Jain Foods and items.</h2>
+                    <p>A plant-based cuisine that excludes all animal products, Jain food is a healthy and flavorful option. From savory snacks to hearty main courses, there are plenty of Jain dishes to enjoy.</p>
+                    <a href=""><button>Order Now</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="sec1">
+                <h3>Company</h3>
+                <div class="anchors">
+                <a href="">About Us</a>
+                <a href="">Team</a>
+                <a href="">Careers</a>
+                <a href="">FAQ's</a>
+                </div>
+            </div>
+            <div class="sec2">
+                <h3>Contact</h3>
+                <div class="anchors">
+                    <a href="">Contact Us</a>
+                <a href="">Feedback</a>
+                <a href="">Help and Support</a>
+                <a href="">Customer Reviews</a>
+                </div>
+            </div>
+            <div class="sec3">
+                <h3>Legal</h3>
+                <div class="anchors">
+                    <a href="">Privacy Policy</a>
+                <a href="">Refund Policy</a>
+                <a href="">Terms and Conditions</a>
+                <a href="">Offer Terms</a>
+                </div>
+            </div>
+            <div class="sec4">
+                <a href=""><img src="./google.webp" alt=""></a>
+                <a href=""><img src="./apple.webp" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function visible(){
+            event.preventDefault(); 
+            console.log("hii");
+            let x = document.getElementById("crossbtn");
+            let y = document.querySelector(".banner");
+            y.style.display = "none";
+        }
+    </script>
+</body>
+</html>
