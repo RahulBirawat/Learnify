@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes - Learnify</title>
+    <link rel="stylesheet" href="./CSS Files/notes.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;200&family=Roboto&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2e1f7181be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="./home.html"><i class="fa-solid fa-book-open-reader fa- 2xl" style="color: #252628;"></i></a>
+                <a href="./home.html">Learnify</a>
+            </div>
+            <a href="#program">Programming language</a>
+            <a href="#core">Core Subjects</a>
+            <a href="">AI Tools</a>
+            <a href="#feedback">Feedback</a>
+        </div>
+
+        <h2 id="heading">Let's Learn Programming Language</h2>
+
+        <div class="programming_lang" id="program">
+            <div class="box" id="c++">
+                <img src="./CSS Files/Images/c- (1).png" alt="">
+                <h2>C-plus-plus</h2>
+                <p>A powerful, high-performance programming language used extensively in system software, game
+                    development, and applications requiring efficiency.</p>
+                <a href="#"><button>Notes</button></a>
+            </div>
+            <div class="box" id="java">
+                <img src="./CSS Files/Images/java.png" alt="">
+                <h2>Java</h2>
+                <p>A versatile, object-oriented language known for its portability and used widely in enterprise-level
+                    applications, mobile apps, and web development.</p>
+                <a href="#"><button>Notes</button></a>
+            </div>
+            <div class="box" id="js">
+                <img src="./CSS Files/Images/java-script.png" alt="">
+                <h2>JavaScript</h2>
+                <p>A dynamic scripting language primarily used for front-end web development, enabling interactive
+                    elements and functionality on websites.</p>
+                <a href="#"><button>Notes</button></a>
+            </div>
+            <div class="box" id="python">
+                <img src="./CSS Files/Images/python.png" alt="">
+                <h2>Python</h2>
+                <p> A simple yet powerful interpreted language valued for its readability, versatility, and extensive
+                    libraries, ideal for scripting, web development, and data analysis.</p>
+                <a href="#"><button>Notes</button></a>
+            </div>
+        </div>
+
+        <!-- Upload Notes -->
+        <div class="upload_notes">
+            <h2 id="heading">Upload Your own Notes</h2>
+            <div class="menu_bar">
+                <label for="Choose">Choose Subject : </label>
+                <select id="Choose">
+                    <option value="">Choose Subject</option>
+                    <option value="">C-plus-plus</option>
+                    <option value="">Java</option>
+                    <option value="">Javascript</option>
+                    <option value="">Python</option>
+                    <option value="">Data Structures</option>
+                    <option value="">DBMS</option>
+                    <option value="">Operating System</option>
+                    <option value="">Computer Network</option>
+                    <option value="">OOPS</option>
+                    <option value="">System Design</option>
+                </select>
+            </div>
+            <div class="file_section">
+                <label for="upload_file">Upload Your Notes : </label>
+                <input type="file" id="upload_file" class="file">
+            </div>
+            <button>Upload</button>
+        </div>
+
+        <h2 id="heading">Let's Learn Core Subjects</h2>
+        <!-- Core Subjects -->
+        <div class="core_subjects" id="core">
+            <div class="corebox">
+                <div class="content">
+                    <img src="./CSS Files/Images/hierarchical-structure.png" alt="">
+                    <h2>Data Structures</h2>
+                    <p>Data structures organize and manage data efficiently, optimizing how information is stored and accessed within computer systems.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+                <div class="content">
+                    <img src="./CSS Files/Images/database-storage.png" alt="">
+                    <h2>DBMS</h2>
+                    <p>DBMS software facilitates the creation, maintenance, and retrieval of structured data, ensuring secure and organized storage.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+                <div class="content">
+                    <img src="./CSS Files/Images/programming.png" alt="">
+                    <h2>OOPS</h2>
+                    <p>OOPs revolves around objects bundling data and functions, promoting code modularity, reusability, and easier maintenance.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+            </div>
+            <div class="corebox">
+                <div class="content">
+                    <img src="./CSS Files/Images/operative-system.png" alt="">
+                    <h2>operating System</h2>
+                    <p>The operating system manages computer hardware resources, enabling user interaction and handling tasks like memory allocation and process management.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+                <div class="content">
+                    <img src="./CSS Files/Images/installation.png" alt="">
+                    <h2>System Design</h2>
+                    <p>System design involves architecting robust and scalable computer systems, considering performance, reliability, and specific user requirements.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+                <div class="content">
+                    <img src="./CSS Files/Images/local-area.png" alt="">
+                    <h2>Computer Networks</h2>
+                    <p>Computer networks link devices, enabling data exchange and resource sharing across various scales, from local networks to the global Internet.</p>
+                    <a href=""><button>Notes</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feedback Section -->
+        <h2 id="heading">Give Feedback</h2> 
+        <div class="feedback" id="feedback">
+            <div class="feed_image">
+                <img src="./CSS Files/Images/feedback.png" alt="">
+                <p>Your feedback matters a lot.</p>
+            </div>
+            <form class="feed_form">
+                <div class="child">
+                    <label for="fname">Name: </label><input type="text" id="fname" placeholder="Enter your name">
+                </div>
+                <div class="child">
+                    <label for="femail">Email: </label><input type="email" id="femail" placeholder="Enter your email">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Give feedback"></textarea>
+                <button>Send Feedback</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
