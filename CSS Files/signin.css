@@ -69,3 +69,32 @@ a{
     color:black;
     font-weight:bolder;
 }
+@media (max-width:450px){
+    .container{
+        flex-direction: column-reverse;
+        width:100%;
+    }
+    .box1{
+        display:none;
+    }
+    .box2 , form{
+        width:100%;
+    }
+    .box2 h2{
+        font-size:1.5rem;
+    }
+    input{
+        width:100%;
+        padding:0.6rem;
+    }
+    .other_options{
+        width:100%;
+        /* padding:1rem; */
+    }
+    .other_options img{
+        height:2rem;
+    }
+    .other_options a{
+        font-size:0.8rem;
+    }
+}
