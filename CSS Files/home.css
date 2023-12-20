@@ -79,13 +79,13 @@ a{
     background-color: white;
     border:none;
     width:100%;
-    visibility: hidden;
+    display:none;
 }
 .navigation_bar .menu-btn img{
     width:50%;
     /* border:2px solid red; */
     height:2.5rem;
-    visibility: hidden;
+   display:none;
 }
 .hero1{
     width:100%;
@@ -198,7 +198,7 @@ h1 span{
 }
 @media (max-width:450px){
     .navigation_bar .menu-btn , .navigation_bar .menu-btn img{
-        visibility: visible;
+        display:block;
     }
     .navigation_bar .midsection , .navigation_bar .user{
         display:none;
