@@ -184,3 +184,67 @@ h1 span{
     cursor:pointer;
     text-decoration: underline;
 }
+@media (max-width:450px){
+    .navigation_bar .menu-btn , .navigation_bar .menu-btn img{
+        visibility: visible;
+    }
+    .navigation_bar .midsection , .navigation_bar .user{
+        display:none;
+    }
+    .hero1{
+        flex-direction: column;
+    }
+    .hero1 .section1{
+        width:100%;
+        padding:4% 4% 4% 0;
+    }
+    .hero1 .section1 p , h1{
+        text-align: center;
+        width:100%;
+        margin-top:2rem;
+    }
+    .hero1 .section1 p{
+        font-size:1em;
+    }
+    .hero1 .section1 h1{
+        font-size:1.5rem;
+    }
+    .hero1 .section2 ,.hero1 .section2 img{
+        width:100%;
+    }
+    .hero1 .section2 img{
+        margin:2rem 0;
+    }
+    .hero2 h2{
+        font-size:1rem;
+    }
+    .hero2 p{
+        font-size:0.8rem;
+        width:100%;
+        margin-top:2rem;
+    }
+    .hero2 h2,p{
+        text-align: center;
+        width:100%;
+    }
+    .hero3 .section{
+        flex-direction: column;
+    }
+    #block2{
+        flex-direction: column-reverse;
+    }
+    .hero3 .section img{
+        width:100%;
+    }
+    .footer{
+        flex-direction: column;
+        gap:8%;
+    }
+    .footer .sec1,.sec2,.sec3,.sec4{
+        width:100%;
+        margin-top:2rem;
+    }
+    .footer .sec4 img{
+        width:70%;
+    }
+}
