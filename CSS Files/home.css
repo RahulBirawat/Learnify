@@ -75,6 +75,18 @@ a{
     border:none;
     cursor:pointer;
 }
+.navigation_bar .menu-btn{
+    background-color: white;
+    border:none;
+    width:100%;
+    visibility: hidden;
+}
+.navigation_bar .menu-btn img{
+    width:50%;
+    /* border:2px solid red; */
+    height:2.5rem;
+    visibility: hidden;
+}
 .hero1{
     width:100%;
     display:flex;
