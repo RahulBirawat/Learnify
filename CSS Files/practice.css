@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5rem;
+    gap:8rem;
+}
+.box{
+    display:flex;
+    gap:7rem;
+    padding:2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box .first{
+    width:50%;
+}
+.box .first img{
+    width:100%;
+}
+.box .second{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.box .second h2{
+    font-size:2rem;
+    font-weight:bolder;
+}
+.box .second p{
+    font-weight:700;
+    line-height: 1.7rem;
+}
+.box .second .btns{
+    display:flex;
+    gap:2rem;
+}
+.box .second button{
+    padding:0.8rem 3rem;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-radius:10px;
+    font-size:1rem;
+    cursor:pointer;
+}
+.box .second button:hover{
+    transition:1s;
+    transform:scale(1.1);
+}
+@media (max-width:450px){
+    .container{
+        width:100%;
+        padding:2rem;
+    }
+    .box{
+        width:100%;
+        flex-direction: column;
+        gap:1.5rem;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(76, 76, 82, 0.2) 0px 7px 29px 0px;
+    }
+    .box .second h2{
+        font-size:1.3rem;
+        text-align: center;
+    }
+    .box .second p{
+        font-size:1rem;
+        padding:0 1rem;
+        line-height: 1.7rem;
+    }
+    .box .second .btns{
+        flex-direction: column;
+    }
+    button{
+        width:100%;
+    }
+}
